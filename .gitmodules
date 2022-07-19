@@ -1,3 +1,4 @@
 [submodule "clamp/lux"]
 	path = clamp/lux
 	url = https://github.com/sbobek/lux.git
+	branch = main
