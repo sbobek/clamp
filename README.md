@@ -87,20 +87,20 @@ r
 You should see following explanations for each of the clusters:
 
 ```
-IF sepal_length < 6.4 AND sepal_length < 6.3 AND petal_width >= 1.0 AND petal_width >= 1.3 THEN 0# Precision(1) Coverage( 0.9954535961151123) 
-IF sepal_width >= 3.8 AND sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width >= 1.5 THEN 2# Precision(1) Coverage( 0.9948582649230957) 
-IF petal_length < 1.9 AND petal_length < 1.7 AND petal_width < 1.0 AND petal_width >= 0.4 THEN 1# Precision(1) Coverage( 0.9940306544303894) 
-IF petal_length < 1.9 AND petal_length >= 1.7 AND petal_width < 1.0 AND petal_width < 0.5 THEN 1# Precision(1) Coverage( 0.9940306544303894) 
-IF petal_length < 1.9 AND petal_length >= 1.7 AND petal_width < 1.0 AND petal_width >= 0.5 THEN 1# Precision(1) Coverage( 0.9940306544303894) 
-IF petal_length >= 1.9 AND petal_width < 1.0 AND petal_width < 0.4 THEN 1# Precision(1) Coverage( 0.9940306544303894) 
-IF petal_length >= 1.9 AND petal_width < 1.0 AND petal_width >= 0.4 THEN 1# Precision(1) Coverage( 0.9940306544303894) 
-IF sepal_length < 6.4 AND sepal_length < 6.3 AND petal_width >= 1.0 AND petal_width < 1.3 THEN 0# Precision(1) Coverage( 0.993997298181057) 
-IF sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width < 1.5 AND petal_width < 1.4 THEN 0# Precision(1) Coverage( 0.9882804155349731) 
-IF sepal_width >= 3.3 AND sepal_length < 6.4 AND sepal_length >= 6.3 AND petal_width >= 1.0 THEN 0# Precision(1) Coverage( 0.9873427152633667) 
-IF petal_length < 1.9 AND petal_length < 1.7 AND petal_width < 1.0 AND petal_width < 0.4 THEN 1# Precision(1) Coverage( 0.985277941593757) 
-IF sepal_width < 3.3 AND sepal_length < 6.4 AND sepal_length >= 6.3 AND petal_width >= 1.0 THEN 0# Precision(1) Coverage( 0.9762586057186127) 
-IF sepal_width < 3.8 AND sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width >= 1.5 THEN 2# Precision(1) Coverage( 0.9701974450088129) 
-IF sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width < 1.5 AND petal_width >= 1.4 THEN 0# Precision(1) Coverage( 0.9493608971436819)
+IF sepal_length < 6.4 AND sepal_length < 6.3 AND petal_width >= 1.0 AND petal_width >= 1.3 THEN 0 # Precision(1) Coverage(0.99) 
+IF sepal_width >= 3.8 AND sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width >= 1.5 THEN 2 # Precision(1) Coverage(0.99) 
+IF petal_length < 1.9 AND petal_length < 1.7 AND petal_width < 1.0 AND petal_width >= 0.4 THEN 1 # Precision(1) Coverage(0.99) 
+IF petal_length < 1.9 AND petal_length >= 1.7 AND petal_width < 1.0 AND petal_width < 0.5 THEN 1 # Precision(1) Coverage(0.99) 
+IF petal_length < 1.9 AND petal_length >= 1.7 AND petal_width < 1.0 AND petal_width >= 0.5 THEN 1 # Precision(1) Coverage(0.99) 
+IF petal_length >= 1.9 AND petal_width < 1.0 AND petal_width < 0.4 THEN 1 # Precision(1) Coverage(0.99) 
+IF petal_length >= 1.9 AND petal_width < 1.0 AND petal_width >= 0.4 THEN 1 # Precision(1) Coverage(0.99) 
+IF sepal_length < 6.4 AND sepal_length < 6.3 AND petal_width >= 1.0 AND petal_width < 1.3 THEN 0 # Precision(1) Coverage(0.99) 
+IF sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width < 1.5 AND petal_width < 1.4 THEN 0 # Precision(1) Coverage(0.98) 
+IF sepal_width >= 3.3 AND sepal_length < 6.4 AND sepal_length >= 6.3 AND petal_width >= 1.0 THEN 0 # Precision(1) Coverage(0.98) 
+IF petal_length < 1.9 AND petal_length < 1.7 AND petal_width < 1.0 AND petal_width < 0.4 THEN 1 # Precision(1) Coverage(0.98) 
+IF sepal_width < 3.3 AND sepal_length < 6.4 AND sepal_length >= 6.3 AND petal_width >= 1.0 THEN 0 # Precision(1) Coverage(0.97) 
+IF sepal_width < 3.8 AND sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width >= 1.5 THEN 2 # Precision(1) Coverage(0.97) 
+IF sepal_length >= 6.4 AND petal_width >= 1.0 AND petal_width < 1.5 AND petal_width >= 1.4 THEN 0 # Precision(1) Coverage(0.94)
 ```
 
 
