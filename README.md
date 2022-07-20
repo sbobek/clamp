@@ -1,5 +1,9 @@
 # Cluster Analysis with Multidimensional Prototypes (CLAMP)
 ## About
+CLAMP main goal is to explain differences between clustering, by using state-of-the-art XAI methods and rule-based representation of explanations.
+It generates bounding boxes that define boundaries of clusters to be explain and exploit it to generate better explanations of the clusters.
+
+
 ## Instalation
 First of all clonde the repository and its submodules, and enter it:
 
@@ -8,7 +12,7 @@ git clone https://github.com/sbobek/clamp.git
 cd clamp
 git submodule update --init --recursive
 ```
-Some of the packages used in CLAMP anre not available in conda, hence the following code should set up all of the requirements in virtual environment:
+Some of the packages used in CLAMP are not available in conda, hence the following code should set up all of the requirements in virtual environment:
 
 ```
 conda create --name clampenv python=3.8
