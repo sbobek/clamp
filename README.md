@@ -3,6 +3,11 @@
 CLAMP main goal is to explain differences between clustering, by using state-of-the-art XAI methods and rule-based representation of explanations.
 It generates bounding boxes that define boundaries of clusters to be explain and exploit it to generate better explanations of the clusters.
 
+![](./pix/bounding-box.png)
+
+CLAMP can use following rule-based explainers (included in the code):
+  * [LUX](https://github.com/sbobek/lux)
+  * [Anchor](https://github.com/marcotcr/anchor)
 
 ## Instalation
 First of all clonde the repository and its submodules, and enter it:
