@@ -17,6 +17,15 @@ conda install pip
 pip install -r requirements.txt
 ```
 
+Additionally if you want to wotk with [JupyterLab](https://jupyter.org/) install it and raun it, while being in active `clampenv` envoronment by:
+
+```
+pip install jupyter lab
+jupyter lab
+```
+
+Open `usage_example.ipynb` in your JupyterLab and see how CLAMP works in practice.
+
 ## Usage example
 ## Cite this work
 TBA
